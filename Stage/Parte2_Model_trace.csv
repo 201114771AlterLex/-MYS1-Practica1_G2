@@ -1,6 +1,6 @@
 Time(Hours),EntityID,ObjectName,ProcessID,StepName,Action
-1.06570656031976,Cliente.104,Inspeccion2,3.OnEnteredProcessing,[Delay] ProcessingTime,Unable to get value of property 'Inspeccion2.ProcessingTime'.
-1.06570656031976,Cliente.104,Inspeccion2,3.OnEnteredProcessing,[Delay] ProcessingTime,Invalid parameters for Discrete probability distribution.
-1.06570656031976,Cliente.104,Inspeccion2,3.OnEnteredProcessing,[Delay] ProcessingTime,Possible causes:
-1.06570656031976,Cliente.104,Inspeccion2,3.OnEnteredProcessing,[Delay] ProcessingTime,A cumulative probability parameter is not in range 0 to 1; last cumulative probability parameter is not 1;  missing value.
+0,--,--,--,--,Unable to evaluate status expression for graphic.
+0,--,--,--,--,Referenced definition type 'ModelEntity' does not match executing type 'Model'
+2.915E-05,--,--,--,--,Unable to evaluate status expression for graphic.
+2.915E-05,--,--,--,--,Referenced definition type 'ModelEntity' does not match executing type 'Model'
 
