@@ -1,0 +1,42 @@
+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
+
+<b>Datos en la entrada</b>
+Vehiculos que llegaron: {Entrada.OutputBuffer.NumberExited}
+Vehiculos tipo Disel:{TADisel}
+Vehiculos tipo Regular:{TARegular}
+Vehiculos tipo Super:{TASuper}
+
+<b>Datos de Limpieza</b>
+Vehiculos que llegaron por limpieza: {Recepcion.InputBuffer.NumberEntered}
+
+<b>Porcentaje de utilizacion de Estaciones de Gas</b>
+
+Estacion 1: {Math.Round( Estacion1.Capacity.ScheduledUtilization,2 )} %
+Estacion 2: {Math.Round( Estacion2.Capacity.ScheduledUtilization,2 )} %
+Estacion 3: {Math.Round( Estacion3.Capacity.ScheduledUtilization,2 )} %
+Estacion 4: {Math.Round( Estacion4.Capacity.ScheduledUtilization,2 )} %
+Estacion 5: {Math.Round( Estacion5.Capacity.ScheduledUtilization,2 )} %
+Estacion 6: {Math.Round( Estacion6.Capacity.ScheduledUtilization,2 )} %
+
+<b>Porcentaje de utilizacion de Servicios Limpieza</b>
+<b>Tunel 1</b>
+Maquina Lavado 1: {Math.Round(Lavado1.Capacity.ScheduledUtilization, 2)} %
+Maquina Secado 1: {Math.Round(Secado1.Capacity.ScheduledUtilization, 2)} %
+Operario Inspeccion 1:{Math.Round(Inspeccion1.Capacity.ScheduledUtilization, 2)} %
+Maquina Encerado 1: {Math.Round(Encerado1.Capacity.ScheduledUtilization, 2)} %
+<b>Tunel 2</b>
+Maquina Lavado 2: {Math.Round(Lavado2.Capacity.ScheduledUtilization, 2)} %
+Maquina Secado 2: {Math.Round(Secado2.Capacity.ScheduledUtilization, 2)} %
+Operario Inspeccion 2:{Math.Round(Inspeccion2.Capacity.ScheduledUtilization, 2)} %
+Maquina Encerado 2: {Math.Round(Encerado2.Capacity.ScheduledUtilization, 2)} %
+
+<b>Porcentaje de utilizacion de los cajeros</b>
+Cajero 1: {Math.Round(Cajero1.Capacity.ScheduledUtilization, 2)}%
+Cajero 2: {Math.Round(Cajero2.Capacity.ScheduledUtilization, 2)}%
+Cajero 3: {Math.Round(Cajero3.Capacity.ScheduledUtilization, 2)}%
+
+<b>Ingresos</b>
+Ingresos por limpieza: {Math.Round(IngresosLimpieza, 2)}
+Ingresos por Gas Servicio Completo: {Math.Round(IngresosServicioCompleto, 2)}
+Ingresos por Gas Auto Servicio: {Math.Round(IngresosAutoServicio, 2)}
+Ingresos por Gas: {Math.Round(IngresosAutoServicio+IngresosServicioCompleto, 2)}
