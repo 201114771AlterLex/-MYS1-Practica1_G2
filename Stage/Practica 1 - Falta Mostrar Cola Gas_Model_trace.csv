@@ -1,0 +1,4 @@
+Time(Hours),EntityID,ObjectName,ProcessID,StepName,Action
+0,Cliente.121,PorCombustible,3.OnEntered,[Assign] OnEnteringAssignments,Unable to get value of property 'Assign.Assignments[1].AssignmentsSkipAssignmentCondition'.
+0,Cliente.121,PorCombustible,3.OnEntered,[Assign] OnEnteringAssignments,Invalid operation because types of operands must match. Both must be numeric or string.
+
